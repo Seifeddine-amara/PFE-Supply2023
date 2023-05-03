@@ -1,0 +1,118 @@
+POST http://localhost:3000/createFctOrder HTTP/1.1
+Host: localhost:3000
+Content-Type: application/json
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+
+{
+  "date_Cmd": "2023-04-27T00:00:00.000+00:00",
+  "deleveryAdress": "Sousse 4060",
+  "factoryID": "644fd6b228eceb296616de0b",
+  "rawMaterialID": "644fdb39c8a27ffe521b7d1b"
+}
+
+
+// LOGIN
+# {
+#     "email":"seif@gmail.com",
+#     "password":"123456"
+# }
+#########################################################
+# {
+#   "name": "Boite",
+#   "type": "Aluminium",
+#   "stock": 123,
+#   "dateProduction": "2022-04-27T00:00:00.000Z",
+#   "delay": "2025-04-27T00:00:00.000Z",
+#   "lotNumber": 123,
+#   "rawMaterials": "Ingrédient du produit",
+#   "createdBy": "64494913145fa50cb17fce56"
+# }
+
+
+
+// pour commenter CTR+K+C   
+// pour lever le commentaire CTR+K+U
+
+###############################################################################
+
+// User Create Exemple
+// POST http://localhost:3000/register
+# {
+#     "email": "achref@gmail.com",
+#     "password": "123456",
+#     "role": "distributor",
+#     "companyName":"ShahraZade Srl",
+#     "address":"italy",
+#     "phoneNumber":3245678456,
+#     "registrationNumber": "LXeDEd344",
+#     "domain":"Yacht",
+#     "wallet":"0X123883773283UJE11132440DAEZD0"
+# }
+
+###############################################################################
+
+// Final Product Create Exemple
+//POST http://localhost:3000/createFP
+
+# {
+#   "name": "NEBLI",
+#   "type": "Coffe",
+#   "stock": 123,
+#   "dateProduction": "2022-04-27T00:00:00.000Z",
+#   "delay": "2025-04-27T00:00:00.000Z",
+#   "lotNumber": 123,
+#   "ingredient": "Ingrédient du produit",
+#   "createdBy": "64494957145fa50cb17fce5c"
+# }
+###############################################################################
+// RawMaterial Create Exemple 
+//POST http://localhost:3000/createRM
+
+
+# {
+#   "name": "Nom de la matière première",
+#   "type": "Type de matière première",
+#   "stock": 10,
+#   "dateProduction": "2022-04-27T00:00:00.000Z",
+#   "delay": "2022-04-27T00:00:00.000Z",
+#   "lotNumber": 123,
+#   "humidity": "Humidité de la matière première",
+#   "temp": "Température de la matière première",
+#   "createdBy": "user_id",
+#   "certification": "Certification de la matière première"
+# }
+
+###############################################################################
+
+//Package create Exemple
+//POST http://localhost:3000/createPkg
+
+# {
+#   "name": "cauffre",
+#   "type": "Carton",
+#   "stock": 123,
+#   "dateProduction": "2022-04-27T00:00:00.000Z",
+#   "delay": "2025-04-27T00:00:00.000Z",
+#   "lotNumber": 123,
+#   "rawMaterials": "Ingrédient du produit",
+#   "createdBy": "6449492f145fa50cb17fce59"
+# }
+
+
+###############################################################################
+
+
+
+
+###############################################################################
+
+
+
+
+###############################################################################
+
+
+
+
+###############################################################################
